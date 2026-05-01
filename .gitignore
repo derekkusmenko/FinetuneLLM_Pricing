@@ -1,0 +1,5 @@
+embeddings/*.npz
+embeddings/*.npz
+embeddings/*.npz
+embeddings/test_embeddings.npz
+embeddings/train_embeddings.npz
