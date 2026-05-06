@@ -1,14 +1,14 @@
 {
-  "prompts": {
-    "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:",
-    "document": ""
+  "__version__": {
+    "pytorch": "2.6.0+rocm6.4.2.git76481f7c",
+    "sentence_transformers": "5.4.1",
+    "transformers": "4.57.1"
   },
   "default_prompt_name": null,
-  "similarity_fn_name": "cosine",
   "model_type": "SentenceTransformer",
-  "__version__": {
-    "sentence_transformers": "5.2.0",
-    "transformers": "4.57.1",
-    "pytorch": "2.6.0+rocm6.4.2.git76481f7c"
-  }
+  "prompts": {
+    "document": "",
+    "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:"
+  },
+  "similarity_fn_name": "cosine"
 }
